@@ -1,13 +1,7 @@
 import React from "react";
 
-import BoardCollab from "./components/BoardCollab";
-import SquareCollab from "./components/SquareCollab";
+import GameWrapper from "./components/GameWrapper";
 
-const App = () => (
-  <>
-    <BoardCollab />
-    <SquareCollab />
-  </>
-);
+const App = () => <GameWrapper />;
 
 export default App;
